@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     @IBAction func messageButtonPressed(_ sender: UIButton) {
         messageLabel.text = "You Are Awesome!"
         imageView.image = UIImage(named: "image0")
+        print("done")
     }
 }
 
